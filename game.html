@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<title> Jogo da adivinhação</title>
+	<meta charset="utf-8">			
+	<link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+	<h1>Jogo da Advinhação</h1>
+	<p>Tente advinhar um número entre 1 e 100</p>
+	<p>Você terá 6 tentativas para advinhar o número</p>
+        <br>
+	<div id="envelope">
+		<form action= "" class ="formulario">
+			<label for="txtNumero" id="labelNumero">Adivinhe o número</Label>
+			<input type="text" id="txtNumero" class="adivinha">	
+			<input type="submit" id="jogar" value="Jogar número" class="jogarNumero">
+		</form>
+		<div class="resultados">
+			<p>Jogadas anteriores: <span class="vezes"></span> </p>
+			<p>Jogadas restantes: <span class="numChances">6</span> </p>
+			<p class="avisos"></p>
+		</div>
+	</div> <!--fechando div envelope -->	
+	<script src="js/script.js"></script>
+</body>	
+</html>	
